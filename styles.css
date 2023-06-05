@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#board {
+  max-width: 100%;
+  min-height: 100vh;
+  padding: 0 20px 20px 20px;
+  text-align: center;
+  background-color: grey;
+  color: white;
+}
+
+h1 {
+  padding-top: 120px;
+}
+
+h2 {
+  margin: 8px;
+}
+
+table {
+  margin: auto;
+  border-spacing: 8px;
+}
+
+button {
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #6e072d;
+  border-color: #6e6e6e;
+  color: white;
+}
+
+.game-square {
+  font-size: 50px;
+  width: 70px;
+  height: 70px;
+  vertical-align: top;
+}
+
+.game-square:disabled {
+  cursor: default;
+}
+
+#restart-button {
+  display: none;
+  font-size: 24px;
+  padding: 12px;
+  margin: 12px auto;
+}
+
+body {
+  scrollbar-width: thin;
+  scrollbar-color: #bcd transparent;
+}
+
+body::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #bcd;
+  border-radius: 3px;
+}
+
+body::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
